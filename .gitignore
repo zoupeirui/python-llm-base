@@ -1,0 +1,26 @@
+# Ignore PyTorch checkpoints and model weights
+*.pth
+*.pt
+*.bin
+*.safetensors
+
+# Ignore ONNX exported models and data files
+*.onnx
+*.onnx.data
+
+# Ignore datasets
+data/
+fake_catdog_data/
+vqa_data/
+
+# Ignore Hugging Face downloaded / saved model weights directories
+saved_tiny_bert/
+finetuned_clip/
+qwen_vl_lora_adapter/
+qwen_vl_merged_model/
+
+# Ignore python virtual environments and cache
+venv/
+.ipynb_checkpoints/
+__pycache__/
+.DS_Store
